@@ -78,7 +78,7 @@ Available from the authors on request:
 
 ## Analysis-ready inputs (Zenodo)
 
-The Zenodo data record [DOI to be added] holds the counts cube, exposure, PSF
+The Zenodo data record (10.5281/zenodo.23420896) holds the counts cube, exposure, PSF
 table and configuration of the data selection, the 10° cell caches of the
 structure templates, Totani's residual-bubble constructions, the 2° and 1°
 template libraries, and the simulation truths. Unpack it into the repository
@@ -91,7 +91,8 @@ Please cite the paper above (`CITATION.cff`). The analysis uses GALPROP
 (https://galprop.stanford.edu/; Ackermann et al. 2012; Porter, Jóhannesson &
 Moskalenko 2017, 2022; Jóhannesson, Porter & Moskalenko 2018), Fermi-LAT data
 and tools, and the external inputs listed above; cite them as their READMEs
-state.
+state. Analysis-ready inputs (Zenodo DOI:10.5281/zenodo.23420896) and 
+software (Zenodo DOI:10.5281/zenodo.23420779).
 
 ## License
 

@@ -6,6 +6,7 @@ version: 1.0.0
 date-released: 2026-10-15
 license: MIT
 repository-code: "https://github.com/kabazajian/totani"
+doi: 10.5281/zenodo.23420779
 authors:
   - family-names: Abazajian
     given-names: Kevork N.
