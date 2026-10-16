@@ -1,0 +1,17 @@
+{
+ "date": "2026-09-24",
+ "refit_amplitude_ratios": {
+  "bubble": 0.9999999688268629,
+  "galprop_gas": 0.9999999725590697,
+  "galprop_ics": 1.0000001122270825,
+  "gce_nfw25": 0.9999998996212813,
+  "isotropic": 1.0000008460165253,
+  "loopI_shell1": 0.9999997416188361,
+  "loopI_shell2": 0.9999997629767929,
+  "point_sources": 1.0000000248073921
+ },
+ "positive_vs_expected_max_rel_dev_inside_footprint": 6.305988736387467e-07,
+ "positive_flux_outside_over_inside": 0.06931617785267126,
+ "negative_over_positive_total": 2.2532026534769407e-07,
+ "negative_max_over_positive_max": 4.609963077412691e-06
+}

@@ -1,0 +1,90 @@
+% Focused insertion snippets for Totani_Halo_v2_copyedited.tex (October 7, 2026).
+% Copy each block at its own anchor; do not input this complete file at once.
+% Use only production PDFs from a scientifically validated compact bundle.
+% Fixture PDFs visibly marked TEST DATA are exclusively layout proofs.
+% Keep the existing title, abstract, prose, equations, figures, tables and
+% refs.bib unchanged. All citation keys below already exist in refs.bib.
+% The current editorial REVTeX text width is 510 TeX pt = 7.05687 inches.
+% Put these production PDFs in the manuscript's figures/ directory, which is
+% already on its graphicspath. Review the generated bundle notes before use.
+
+% BEGIN TEMPLATE OVERVIEW INSERTION
+% Anchor: end of Section II, after subsection NFW template (sec:halo),
+% immediately before \section{Statistical analysis} (sec:method).
+Figure~\ref{fig:template_overview} shows the NFW and bubble templates
+together with the masks that define the fitted region.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{template_overview.pdf}
+\caption{Shown here are the spatial templates whose fitted amplitudes are
+compared in this work, on the $120^\circ\times120^\circ$ analysis grid
+before exposure weighting and PSF convolution: (a) the NFW annihilation
+template, $J(\ell,b)$ of Eq.~(\ref{eq:jmap}); (b) the flat \fermi\ bubbles
+template \cite{Fermi-LAT:2014sfa}; (c) the structured \fermi\ bubbles
+template \cite{Fermi-LAT:2017opo}; and (d) the
+X-ray-brightness-weighted eROSITA bubbles template
+\cite{Predehl:2020kyq,Zhang:2024mcd}. The NFW template overlaps the
+\fermi\ bubbles over much of the fitted region at $|b|\lesssim30^\circ$,
+and the eastern ($\ell>0$) half of the eROSITA bubbles template, which
+reduces the gamma-ray asymmetry in Sec.~\ref{sec:erositafreedom}, is a
+reconstruction rather than native survey data. Each map is divided by
+its maximum over the full template, including the masked plane, so that
+the NFW template within the fitted region reaches only $5.3\times10^{-3}$
+of its central value; the color scales of (a) and (d) are stretched for
+display, and the northern and southern halves of the eROSITA template
+retain their independent normalizations. The solid (black) line is the
+boundary of the flat \fermi\ bubbles, the dashed (orange) line in (a)
+encloses the region outside the bubbles used in Sec.~\ref{sec:outside},
+and the dashed (gray) line in (d) separates the native western from the
+reconstructed eastern eROSITA data. Light gray marks the excluded plane,
+$|b|<10^\circ$, and the 4FGL-DR4 extended sources masked within twice
+their semi-major axes \cite{Ballet:2023qzs}. The dark disk at
+$(\ell,b)\approx(-1^\circ,+24^\circ)$ in (d) is the region around
+Sco~X-1 outside the eROSITA coverage, where the template weight is zero.}
+\label{fig:template_overview}
+\end{figure*}
+% END TEMPLATE OVERVIEW INSERTION
+
+% BEGIN REGIONAL NORMALIZATIONS INSERTION
+% Anchor: Section V, subsection Quadrant likelihood tests and simulated halos
+% (sec:quadrantfinal), after the paragraph ending "a more extreme significance."
+% and before the paragraph beginning "Using twelve brightness-weighted ...".
+% Preserve the existing prose's model-set p=0.5--0.9 range as model-set prose;
+% the plot's baseline panels must use only their own exported measurements.
+Figure~\ref{fig:regional_nfw_normalizations} shows the regional NFW
+coefficients that underlie these likelihood comparisons.
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{regional_nfw_normalizations.pdf}
+\caption{Shown here are the NFW coefficients fitted independently in four
+sky regions at 20.8\,GeV for Totani's baseline diffuse model in the
+single-gas decomposition, with $2^\circ$ cells. The left column uses the
+standard quadrants and the right column the partition rotated by
+$45^\circ$, both drawn at top with the excluded plane in white; E and W
+denote $\ell>0$ and $\ell<0$. From top to bottom, the rows use the
+structured \fermi\ bubbles template with uniform northern and southern
+eROSITA bubbles templates, the flat \fermi\ bubbles template with the
+same eROSITA templates, and the flat \fermi\ bubbles template with twelve
+X-ray-brightness-weighted eROSITA bubbles pieces. Only with the twelve
+pieces do the standard quadrants agree with a common normalization,
+whereas the rotated partition disfavors a common normalization in every
+row, with the east and west wedges near the plane containing little
+NFW-correlated emission (Sec.~\ref{sec:quadrantfinal}). The filled
+(black) circles are the regional coefficients with 68\%
+profile-likelihood intervals, in which the other regional and all
+foreground amplitudes are refitted; the solid (blue) line is the common
+coefficient fitted to the same data; and the dotted (gray) line marks
+zero. The regional templates are cut from the NFW intensity map before
+PSF convolution, so that equal coefficients reproduce the full folded
+template. The coefficient multiplies $J$ of Eq.~(\ref{eq:jmap}) to give
+the differential intensity for a flat spectrum across the bin, in units
+of $10^{-35}\,\mathrm{cm^3\,s^{-1}\,GeV^{-2}\,MeV^{-1}\,sr^{-1}}$. In
+each panel, $Q_6$ is the sum of $\dl$ between the common and regional
+fits over the six bins from 5.6 to 130\,GeV, and the count is the number
+of 200 null simulations of that fixed partition that exceed it. These
+simulations were drawn from a reference foreground fit with a different
+GALPROP model from the baseline shown, and therefore calibrate this
+configuration only approximately.}
+\label{fig:regional_nfw_normalizations}
+\end{figure*}
+% END REGIONAL NORMALIZATIONS INSERTION

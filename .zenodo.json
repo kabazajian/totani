@@ -1,0 +1,19 @@
+{
+  "title": "totani: analysis code for \"Foreground dependence of the 20 GeV Galactic halo gamma-ray excess and its proposed connection to the LUX-ZEPLIN event\"",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {"name": "Abazajian, Kevork N.", "orcid": "0000-0001-9919-6362",
+     "affiliation": "Department of Physics and Astronomy, University of California, Irvine"},
+    {"name": "Li, Youyou", "orcid": "0000-0002-5152-2971",
+     "affiliation": "GRAPPA Institute, University of Amsterdam"},
+    {"name": "Macias, Oscar", "orcid": "0000-0001-8867-2693",
+     "affiliation": "Department of Physics and Astronomy, San Francisco State University; GRAPPA Institute, University of Amsterdam"}
+  ],
+  "description": "<p>Analysis code of Abazajian, Li &amp; Macias (2026): fifteen years of Fermi-LAT data at |l|, |b| &le; 60&deg; fitted on 10&deg;, 2&deg; and 1&deg; cells against 281 Galactic diffuse-emission configurations, three Fermi-bubbles descriptions, four Loop I templates and the eROSITA bubbles, with an NFW annihilation template; simulated skies; and the scripts that produce every table and figure of the paper. The analysis-ready inputs (counts, exposure, PSF and template caches) are a separate Zenodo record linked from the README. GALPROP outputs are not redistributed; the Galp21 configurations are available from the authors on request. GALPROP: https://galprop.stanford.edu/</p>",
+  "keywords": ["Fermi-LAT", "gamma rays", "dark matter", "Galactic halo", "Fermi bubbles", "GALPROP", "diffuse emission"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/kabazajian/totani", "relation": "isSupplementTo", "resource_type": "software", "scheme": "url"}
+  ]
+}

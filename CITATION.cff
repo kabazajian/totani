@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below and the software record."
+type: software
+title: "totani: foreground dependence of the 20 GeV Galactic halo gamma-ray excess"
+version: 1.0.0
+date-released: 2026-10-15
+license: MIT
+repository-code: "https://github.com/kabazajian/totani"
+authors:
+  - family-names: Abazajian
+    given-names: Kevork N.
+    orcid: "https://orcid.org/0000-0001-9919-6362"
+    affiliation: "Department of Physics and Astronomy, University of California, Irvine"
+  - family-names: Li
+    given-names: Youyou
+    orcid: "https://orcid.org/0000-0002-5152-2971"
+    affiliation: "GRAPPA Institute, University of Amsterdam"
+  - family-names: Macias
+    given-names: Oscar
+    orcid: "https://orcid.org/0000-0001-8867-2693"
+    affiliation: "Department of Physics and Astronomy, San Francisco State University; GRAPPA Institute, University of Amsterdam"
+preferred-citation:
+  type: article
+  title: "Foreground dependence of the 20 GeV Galactic halo gamma-ray excess and its proposed connection to the LUX-ZEPLIN event"
+  year: 2026
+  authors:
+    - family-names: Abazajian
+      given-names: Kevork N.
+    - family-names: Li
+      given-names: Youyou
+    - family-names: Macias
+      given-names: Oscar
+  # Add the arXiv identifier (and the journal DOI when assigned):
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:26MM.NNNNN"

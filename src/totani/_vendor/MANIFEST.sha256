@@ -1,0 +1,9 @@
+ec3489c1354553a24149436f9c98f267746712a589394e7a22422e386d1a349a  ./scripts/a2020_stage2_diffuse.py
+3b8a1b3f8efbb4284ad039519546aa12a3c99e8b25ba47ccc1b8db29faa4af58  ./scripts/a2020_stage2_reduce.py
+6e16224d4de2714a161a042dac2fd59250a206a82ca2f9507d76a83aa26a0233  ./scripts/a2020_templates_official.py
+c5a70a0c535ca2056bf3ec044d287e5306e0a7c44244470fdad673a3608726fe  ./src/gcereduce/__init__.py
+bfa74851fdb8aa0717a5bb72ee4971076964deee99895c04c5abebc7a6cdda38  ./src/gcereduce/dm_templates.py
+5bad851da115cb88c341537f726e6155e6680ba8bd74c92ebf0c2c3642d267a5  ./src/gcereduce/forward.py
+0833677cc5a5f1240c2e5a8a7a37d116d41e13516f9ea40516301d7eef83e8a7  ./src/gcereduce/galp21.py
+59d98107d47c6f02838de7ce2301b95bb49166a74cd7586201a69d2991834eac  ./src/gcereduce/reduce.py
+1543fdfe2db33446a22c3df42c02f4ac28ea2b7a0486a237e66b9378d1f06ec6  ./src/gcereduce/regrid.py

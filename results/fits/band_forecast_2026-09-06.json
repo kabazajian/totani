@@ -1,0 +1,818 @@
+{
+  "date": "2026-09-06",
+  "models": [
+    "SA0_F98",
+    "SA0_R12",
+    "SA50_F98",
+    "SA50_R12",
+    "SA100_F98",
+    "SA100_R12"
+  ],
+  "energies_mev": [
+    100.00000000000004,
+    125.89254117900003,
+    158.48931924506212,
+    199.52623149490657,
+    251.1886431476323,
+    316.2277660116043,
+    398.10717054559063,
+    501.18723361565935,
+    630.9573444634848,
+    794.3282347006173,
+    999.9999999668992,
+    1258.9254117483283,
+    1584.8931923981593,
+    1995.2623148830198,
+    2511.886431393174,
+    3162.277660011365,
+    3981.071705324124,
+    5011.87233599069,
+    6309.573444425987,
+    7943.282346743233,
+    9999.999999337979,
+    12589.254117066563,
+    15848.931923456972,
+    19952.62314816974,
+    25118.864313100272,
+    31622.776599066892,
+    39810.71705192346,
+    50118.7233582479,
+    63095.73444217132,
+    79432.823464803,
+    99999.99999006947,
+    125892.54116649818,
+    158489.3192293235,
+    199526.23147509282,
+    251188.64312268805,
+    316227.76598020137,
+    398107.1705060567,
+    501187.23356588907,
+    630957.3444008277,
+    794328.2346217367,
+    999999.9998675934,
+    1258925.4116233098,
+    1584893.1922407702,
+    1995262.314684879
+  ],
+  "plane_near_20gev": 23,
+  "n_band_cells": 48,
+  "kinds": {
+    "ics_anisotropic": {
+      "absolute_max_over_min": 1.9656510864181078,
+      "renormalized_worst_cell_ratio": 1.209449549673445,
+      "renormalized_rms_frac_dev": 0.03159886064277781,
+      "absolute_band_total_20gev": [
+        2.469855555058685e-07,
+        3.043649698945202e-07,
+        2.979308444794027e-07,
+        3.6211487947707195e-07,
+        4.0297466478881065e-07,
+        4.854874255096903e-07
+      ],
+      "per_plane": [
+        {
+          "E_gev": 1.2589254117483284,
+          "absolute_max_over_min": 1.780742031688729,
+          "renormalized_worst_cell_ratio": 1.1744681287024148,
+          "renormalized_rms_frac_dev": 0.02544146461888589
+        },
+        {
+          "E_gev": 1.5848931923981593,
+          "absolute_max_over_min": 1.8059093012226222,
+          "renormalized_worst_cell_ratio": 1.1731623575811922,
+          "renormalized_rms_frac_dev": 0.025813598123329274
+        },
+        {
+          "E_gev": 1.9952623148830197,
+          "absolute_max_over_min": 1.825774684106473,
+          "renormalized_worst_cell_ratio": 1.170954521531821,
+          "renormalized_rms_frac_dev": 0.025877956639589063
+        },
+        {
+          "E_gev": 2.511886431393174,
+          "absolute_max_over_min": 1.8266140074754122,
+          "renormalized_worst_cell_ratio": 1.1697579416557369,
+          "renormalized_rms_frac_dev": 0.026585158059371363
+        },
+        {
+          "E_gev": 3.1622776600113647,
+          "absolute_max_over_min": 1.851364931160343,
+          "renormalized_worst_cell_ratio": 1.166444933564333,
+          "renormalized_rms_frac_dev": 0.026755558711781573
+        },
+        {
+          "E_gev": 3.981071705324124,
+          "absolute_max_over_min": 1.86413710016067,
+          "renormalized_worst_cell_ratio": 1.162297312802149,
+          "renormalized_rms_frac_dev": 0.027157351190907092
+        },
+        {
+          "E_gev": 5.01187233599069,
+          "absolute_max_over_min": 1.863664564831975,
+          "renormalized_worst_cell_ratio": 1.161063546406384,
+          "renormalized_rms_frac_dev": 0.027941294310086295
+        },
+        {
+          "E_gev": 6.309573444425987,
+          "absolute_max_over_min": 1.8941068260376024,
+          "renormalized_worst_cell_ratio": 1.163089755562969,
+          "renormalized_rms_frac_dev": 0.028163479403397168
+        },
+        {
+          "E_gev": 7.943282346743232,
+          "absolute_max_over_min": 1.8915915413577764,
+          "renormalized_worst_cell_ratio": 1.1719288748584817,
+          "renormalized_rms_frac_dev": 0.02900694404142922
+        },
+        {
+          "E_gev": 9.999999999337978,
+          "absolute_max_over_min": 1.9210111604734845,
+          "renormalized_worst_cell_ratio": 1.1795138238920688,
+          "renormalized_rms_frac_dev": 0.02933996569601926
+        },
+        {
+          "E_gev": 12.589254117066563,
+          "absolute_max_over_min": 1.929200965892989,
+          "renormalized_worst_cell_ratio": 1.1897516577988425,
+          "renormalized_rms_frac_dev": 0.03017618682076184
+        },
+        {
+          "E_gev": 15.848931923456972,
+          "absolute_max_over_min": 1.9516757481322187,
+          "renormalized_worst_cell_ratio": 1.2001717205662468,
+          "renormalized_rms_frac_dev": 0.03079502550276015
+        },
+        {
+          "E_gev": 19.95262314816974,
+          "absolute_max_over_min": 1.9656510864181078,
+          "renormalized_worst_cell_ratio": 1.209449549673445,
+          "renormalized_rms_frac_dev": 0.03159886064277781
+        },
+        {
+          "E_gev": 25.11886431310027,
+          "absolute_max_over_min": 1.9868602742983243,
+          "renormalized_worst_cell_ratio": 1.2232641166922602,
+          "renormalized_rms_frac_dev": 0.03232095703137934
+        },
+        {
+          "E_gev": 31.622776599066892,
+          "absolute_max_over_min": 2.000639316610662,
+          "renormalized_worst_cell_ratio": 1.237510142142278,
+          "renormalized_rms_frac_dev": 0.03312786496277785
+        },
+        {
+          "E_gev": 39.810717051923454,
+          "absolute_max_over_min": 2.0292587598707796,
+          "renormalized_worst_cell_ratio": 1.2566729316205596,
+          "renormalized_rms_frac_dev": 0.03388440050139351
+        },
+        {
+          "E_gev": 50.118723358247905,
+          "absolute_max_over_min": 2.0287731353387835,
+          "renormalized_worst_cell_ratio": 1.272431138507346,
+          "renormalized_rms_frac_dev": 0.0346541047852811
+        },
+        {
+          "E_gev": 63.09573444217132,
+          "absolute_max_over_min": 2.071198664066982,
+          "renormalized_worst_cell_ratio": 1.2931518855862782,
+          "renormalized_rms_frac_dev": 0.03547801299152359
+        },
+        {
+          "E_gev": 79.43282346480301,
+          "absolute_max_over_min": 2.0660562147289565,
+          "renormalized_worst_cell_ratio": 1.3101949036556466,
+          "renormalized_rms_frac_dev": 0.03630537932859698
+        },
+        {
+          "E_gev": 99.99999999006947,
+          "absolute_max_over_min": 2.1050805981945895,
+          "renormalized_worst_cell_ratio": 1.3312392137983857,
+          "renormalized_rms_frac_dev": 0.03719419457935136
+        },
+        {
+          "E_gev": 125.89254116649818,
+          "absolute_max_over_min": 2.100391832002027,
+          "renormalized_worst_cell_ratio": 1.3476133658848672,
+          "renormalized_rms_frac_dev": 0.038034899208840796
+        },
+        {
+          "E_gev": 158.4893192293235,
+          "absolute_max_over_min": 2.1288186418142256,
+          "renormalized_worst_cell_ratio": 1.370398758531259,
+          "renormalized_rms_frac_dev": 0.0394275769881744
+        },
+        {
+          "E_gev": 199.52623147509283,
+          "absolute_max_over_min": 2.1236114126796335,
+          "renormalized_worst_cell_ratio": 1.378182977091869,
+          "renormalized_rms_frac_dev": 0.039819274806231694
+        }
+      ],
+      "isrf_pair_max_frac_diff_20gev": 0.2323189073592943,
+      "basis_projection": [
+        {
+          "model": "SA0_R12",
+          "fractional_size_vs_reference": 0.012294334372512988,
+          "leverage_vs_19_components": 0.5975771552693947
+        },
+        {
+          "model": "SA50_F98",
+          "fractional_size_vs_reference": 0.038966728147900635,
+          "leverage_vs_19_components": 0.5181306644368813
+        },
+        {
+          "model": "SA50_R12",
+          "fractional_size_vs_reference": 0.039645678756753844,
+          "leverage_vs_19_components": 0.5497833800427416
+        },
+        {
+          "model": "SA100_F98",
+          "fractional_size_vs_reference": 0.06557975902115057,
+          "leverage_vs_19_components": 0.6509036375360455
+        },
+        {
+          "model": "SA100_R12",
+          "fractional_size_vs_reference": 0.06622816365136328,
+          "leverage_vs_19_components": 0.6434049345019798
+        }
+      ]
+    },
+    "pion_decay": {
+      "absolute_max_over_min": 1.0394106034197526,
+      "renormalized_worst_cell_ratio": 1.0277265895531593,
+      "renormalized_rms_frac_dev": 0.003040996792289416,
+      "absolute_band_total_20gev": [
+        3.6775287831317895e-07,
+        3.6775287831317895e-07,
+        3.7799362215744915e-07,
+        3.7799362215744915e-07,
+        3.822462411568521e-07,
+        3.822462411568521e-07
+      ],
+      "per_plane": [
+        {
+          "E_gev": 1.2589254117483284,
+          "absolute_max_over_min": 1.0185452624371498,
+          "renormalized_worst_cell_ratio": 1.021224186889726,
+          "renormalized_rms_frac_dev": 0.002233167736645266
+        },
+        {
+          "E_gev": 1.5848931923981593,
+          "absolute_max_over_min": 1.024082289342742,
+          "renormalized_worst_cell_ratio": 1.0220520601126926,
+          "renormalized_rms_frac_dev": 0.0023305556652116486
+        },
+        {
+          "E_gev": 1.9952623148830197,
+          "absolute_max_over_min": 1.0302677203706052,
+          "renormalized_worst_cell_ratio": 1.022885779600633,
+          "renormalized_rms_frac_dev": 0.0024313620732107763
+        },
+        {
+          "E_gev": 2.511886431393174,
+          "absolute_max_over_min": 1.0371566843611344,
+          "renormalized_worst_cell_ratio": 1.0237067300862952,
+          "renormalized_rms_frac_dev": 0.0025330424891557815
+        },
+        {
+          "E_gev": 3.1622776600113647,
+          "absolute_max_over_min": 1.0486965977359652,
+          "renormalized_worst_cell_ratio": 1.0244498231693049,
+          "renormalized_rms_frac_dev": 0.0026261841685646936
+        },
+        {
+          "E_gev": 3.981071705324124,
+          "absolute_max_over_min": 1.057494617628866,
+          "renormalized_worst_cell_ratio": 1.0251511678607759,
+          "renormalized_rms_frac_dev": 0.0027139883897177304
+        },
+        {
+          "E_gev": 5.01187233599069,
+          "absolute_max_over_min": 1.0607281515597924,
+          "renormalized_worst_cell_ratio": 1.025713934858774,
+          "renormalized_rms_frac_dev": 0.002783927424745928
+        },
+        {
+          "E_gev": 6.309573444425987,
+          "absolute_max_over_min": 1.0598957176664365,
+          "renormalized_worst_cell_ratio": 1.0262246482505264,
+          "renormalized_rms_frac_dev": 0.0028473292989412936
+        },
+        {
+          "E_gev": 7.943282346743232,
+          "absolute_max_over_min": 1.0555053098257918,
+          "renormalized_worst_cell_ratio": 1.0266414074548016,
+          "renormalized_rms_frac_dev": 0.0028994545699432663
+        },
+        {
+          "E_gev": 9.999999999337978,
+          "absolute_max_over_min": 1.0499931935507734,
+          "renormalized_worst_cell_ratio": 1.026994641945882,
+          "renormalized_rms_frac_dev": 0.0029444290546634484
+        },
+        {
+          "E_gev": 12.589254117066563,
+          "absolute_max_over_min": 1.04492661494996,
+          "renormalized_worst_cell_ratio": 1.027290331725889,
+          "renormalized_rms_frac_dev": 0.0029828503718484886
+        },
+        {
+          "E_gev": 15.848931923456972,
+          "absolute_max_over_min": 1.0412622923101305,
+          "renormalized_worst_cell_ratio": 1.0275316204347924,
+          "renormalized_rms_frac_dev": 0.0030148022898921056
+        },
+        {
+          "E_gev": 19.95262314816974,
+          "absolute_max_over_min": 1.0394106034197526,
+          "renormalized_worst_cell_ratio": 1.0277265895531593,
+          "renormalized_rms_frac_dev": 0.003040996792289416
+        },
+        {
+          "E_gev": 25.11886431310027,
+          "absolute_max_over_min": 1.0393446637934884,
+          "renormalized_worst_cell_ratio": 1.027883738820281,
+          "renormalized_rms_frac_dev": 0.0030623323548182517
+        },
+        {
+          "E_gev": 31.622776599066892,
+          "absolute_max_over_min": 1.0408192556791809,
+          "renormalized_worst_cell_ratio": 1.028010315869518,
+          "renormalized_rms_frac_dev": 0.003079631957444287
+        },
+        {
+          "E_gev": 39.810717051923454,
+          "absolute_max_over_min": 1.0433622896195769,
+          "renormalized_worst_cell_ratio": 1.028118604836189,
+          "renormalized_rms_frac_dev": 0.0030944722821971507
+        },
+        {
+          "E_gev": 50.118723358247905,
+          "absolute_max_over_min": 1.0466129697712858,
+          "renormalized_worst_cell_ratio": 1.0282012696567349,
+          "renormalized_rms_frac_dev": 0.003105831781552861
+        },
+        {
+          "E_gev": 63.09573444217132,
+          "absolute_max_over_min": 1.0501429192302665,
+          "renormalized_worst_cell_ratio": 1.0282816130313461,
+          "renormalized_rms_frac_dev": 0.0031168401468599943
+        },
+        {
+          "E_gev": 79.43282346480301,
+          "absolute_max_over_min": 1.0535553771449486,
+          "renormalized_worst_cell_ratio": 1.0283359153555118,
+          "renormalized_rms_frac_dev": 0.0031243091184747235
+        },
+        {
+          "E_gev": 99.99999999006947,
+          "absolute_max_over_min": 1.0569549477132871,
+          "renormalized_worst_cell_ratio": 1.0283901312317099,
+          "renormalized_rms_frac_dev": 0.0031317511181020415
+        },
+        {
+          "E_gev": 125.89254116649818,
+          "absolute_max_over_min": 1.0599901393329578,
+          "renormalized_worst_cell_ratio": 1.0284296083108313,
+          "renormalized_rms_frac_dev": 0.003137203874987943
+        },
+        {
+          "E_gev": 158.4893192293235,
+          "absolute_max_over_min": 1.0626005398412044,
+          "renormalized_worst_cell_ratio": 1.0284593310057542,
+          "renormalized_rms_frac_dev": 0.00314135225262128
+        },
+        {
+          "E_gev": 199.52623147509283,
+          "absolute_max_over_min": 1.0651379877889007,
+          "renormalized_worst_cell_ratio": 1.0284857994573144,
+          "renormalized_rms_frac_dev": 0.0031450617091522636
+        }
+      ],
+      "isrf_pair_max_frac_diff_20gev": 0.0,
+      "basis_projection": [
+        {
+          "model": "SA0_R12",
+          "fractional_size_vs_reference": 0.0,
+          "leverage_vs_19_components": null
+        },
+        {
+          "model": "SA50_F98",
+          "fractional_size_vs_reference": 0.0036987014422233244,
+          "leverage_vs_19_components": 0.5590846075925913
+        },
+        {
+          "model": "SA50_R12",
+          "fractional_size_vs_reference": 0.0036987014422233244,
+          "leverage_vs_19_components": 0.5590846075925913
+        },
+        {
+          "model": "SA100_F98",
+          "fractional_size_vs_reference": 0.006982573542067376,
+          "leverage_vs_19_components": 0.5947761838450861
+        },
+        {
+          "model": "SA100_R12",
+          "fractional_size_vs_reference": 0.006982573542067376,
+          "leverage_vs_19_components": 0.5947761838450861
+        }
+      ]
+    },
+    "bremss": {
+      "absolute_max_over_min": 1.2262867479289674,
+      "renormalized_worst_cell_ratio": 1.0808384916630798,
+      "renormalized_rms_frac_dev": 0.010280523240366565,
+      "absolute_band_total_20gev": [
+        2.495326263283515e-08,
+        2.4958619976927904e-08,
+        2.720975442892064e-08,
+        2.7240926608757165e-08,
+        3.052598326141056e-08,
+        3.059985528423684e-08
+      ],
+      "per_plane": [
+        {
+          "E_gev": 1.2589254117483284,
+          "absolute_max_over_min": 1.1950017091335203,
+          "renormalized_worst_cell_ratio": 1.0262187963877434,
+          "renormalized_rms_frac_dev": 0.003103612860929025
+        },
+        {
+          "E_gev": 1.5848931923981593,
+          "absolute_max_over_min": 1.193433894267201,
+          "renormalized_worst_cell_ratio": 1.0296250398335614,
+          "renormalized_rms_frac_dev": 0.0035822123482329416
+        },
+        {
+          "E_gev": 1.9952623148830197,
+          "absolute_max_over_min": 1.1931619313795754,
+          "renormalized_worst_cell_ratio": 1.0342881561007904,
+          "renormalized_rms_frac_dev": 0.004259748329443938
+        },
+        {
+          "E_gev": 2.511886431393174,
+          "absolute_max_over_min": 1.2021843998031987,
+          "renormalized_worst_cell_ratio": 1.0393731045907975,
+          "renormalized_rms_frac_dev": 0.004975050135252522
+        },
+        {
+          "E_gev": 3.1622776600113647,
+          "absolute_max_over_min": 1.2216412254194633,
+          "renormalized_worst_cell_ratio": 1.0441749100166131,
+          "renormalized_rms_frac_dev": 0.0056576916720953
+        },
+        {
+          "E_gev": 3.981071705324124,
+          "absolute_max_over_min": 1.2578142341278795,
+          "renormalized_worst_cell_ratio": 1.0488954158933634,
+          "renormalized_rms_frac_dev": 0.006356263807713907
+        },
+        {
+          "E_gev": 5.01187233599069,
+          "absolute_max_over_min": 1.2778046752985248,
+          "renormalized_worst_cell_ratio": 1.0526999102907593,
+          "renormalized_rms_frac_dev": 0.006924241408074443
+        },
+        {
+          "E_gev": 6.309573444425987,
+          "absolute_max_over_min": 1.274984115883865,
+          "renormalized_worst_cell_ratio": 1.056594647066226,
+          "renormalized_rms_frac_dev": 0.007484605424558323
+        },
+        {
+          "E_gev": 7.943282346743232,
+          "absolute_max_over_min": 1.2653270067626026,
+          "renormalized_worst_cell_ratio": 1.0612201339988354,
+          "renormalized_rms_frac_dev": 0.008033634669389169
+        },
+        {
+          "E_gev": 9.999999999337978,
+          "absolute_max_over_min": 1.2536899556538947,
+          "renormalized_worst_cell_ratio": 1.066089598273816,
+          "renormalized_rms_frac_dev": 0.008628048837113132
+        },
+        {
+          "E_gev": 12.589254117066563,
+          "absolute_max_over_min": 1.2418005896902062,
+          "renormalized_worst_cell_ratio": 1.071106936912868,
+          "renormalized_rms_frac_dev": 0.009185074751230917
+        },
+        {
+          "E_gev": 15.848931923456972,
+          "absolute_max_over_min": 1.2321408089925574,
+          "renormalized_worst_cell_ratio": 1.0759001216867023,
+          "renormalized_rms_frac_dev": 0.00974787718476528
+        },
+        {
+          "E_gev": 19.95262314816974,
+          "absolute_max_over_min": 1.2262867479289674,
+          "renormalized_worst_cell_ratio": 1.0808384916630798,
+          "renormalized_rms_frac_dev": 0.010280523240366565
+        },
+        {
+          "E_gev": 25.11886431310027,
+          "absolute_max_over_min": 1.2307450541016032,
+          "renormalized_worst_cell_ratio": 1.0855349911081824,
+          "renormalized_rms_frac_dev": 0.010771782237171373
+        },
+        {
+          "E_gev": 31.622776599066892,
+          "absolute_max_over_min": 1.2382805926005167,
+          "renormalized_worst_cell_ratio": 1.0904935630830475,
+          "renormalized_rms_frac_dev": 0.011328515824364206
+        },
+        {
+          "E_gev": 39.810717051923454,
+          "absolute_max_over_min": 1.2461125461838352,
+          "renormalized_worst_cell_ratio": 1.0954985320821191,
+          "renormalized_rms_frac_dev": 0.011831961071023068
+        },
+        {
+          "E_gev": 50.118723358247905,
+          "absolute_max_over_min": 1.255737578374857,
+          "renormalized_worst_cell_ratio": 1.1006662728637222,
+          "renormalized_rms_frac_dev": 0.012373744513457229
+        },
+        {
+          "E_gev": 63.09573444217132,
+          "absolute_max_over_min": 1.2655097052353927,
+          "renormalized_worst_cell_ratio": 1.1064047134731059,
+          "renormalized_rms_frac_dev": 0.012907015073764978
+        },
+        {
+          "E_gev": 79.43282346480301,
+          "absolute_max_over_min": 1.2758178728138343,
+          "renormalized_worst_cell_ratio": 1.1125166653863767,
+          "renormalized_rms_frac_dev": 0.01347178900842301
+        },
+        {
+          "E_gev": 99.99999999006947,
+          "absolute_max_over_min": 1.2864225317455291,
+          "renormalized_worst_cell_ratio": 1.119499306225272,
+          "renormalized_rms_frac_dev": 0.014074363182729826
+        },
+        {
+          "E_gev": 125.89254116649818,
+          "absolute_max_over_min": 1.29634938211327,
+          "renormalized_worst_cell_ratio": 1.1265807921383386,
+          "renormalized_rms_frac_dev": 0.014644267183190788
+        },
+        {
+          "E_gev": 158.4893192293235,
+          "absolute_max_over_min": 1.3069338677507145,
+          "renormalized_worst_cell_ratio": 1.1337582868835763,
+          "renormalized_rms_frac_dev": 0.01522843993206244
+        },
+        {
+          "E_gev": 199.52623147509283,
+          "absolute_max_over_min": 1.3168330041888734,
+          "renormalized_worst_cell_ratio": 1.1412069012210762,
+          "renormalized_rms_frac_dev": 0.015764675079540845
+        }
+      ],
+      "isrf_pair_max_frac_diff_20gev": 0.002430158345745383,
+      "basis_projection": [
+        {
+          "model": "SA0_R12",
+          "fractional_size_vs_reference": 0.001015058782716894,
+          "leverage_vs_19_components": 0.5228708036274982
+        },
+        {
+          "model": "SA50_F98",
+          "fractional_size_vs_reference": 0.01040466677461635,
+          "leverage_vs_19_components": 0.5427549918660665
+        },
+        {
+          "model": "SA50_R12",
+          "fractional_size_vs_reference": 0.011004752886980647,
+          "leverage_vs_19_components": 0.5442569813985408
+        },
+        {
+          "model": "SA100_F98",
+          "fractional_size_vs_reference": 0.024184185426130773,
+          "leverage_vs_19_components": 0.5543940450018985
+        },
+        {
+          "model": "SA100_R12",
+          "fractional_size_vs_reference": 0.025097992673553025,
+          "leverage_vs_19_components": 0.5537648891182191
+        }
+      ]
+    },
+    "gas_pi0_plus_bremss": {
+      "absolute_max_over_min": 1.0512850536193767,
+      "renormalized_worst_cell_ratio": 1.0305693742667865,
+      "renormalized_rms_frac_dev": 0.003462583817287197,
+      "absolute_band_total_20gev": [
+        3.927061409460141e-07,
+        3.927114982901069e-07,
+        4.052033765863698e-07,
+        4.0523454876620633e-07,
+        4.1277222441826273e-07,
+        4.1284609644108893e-07
+      ],
+      "per_plane": [
+        {
+          "E_gev": 1.2589254117483284,
+          "absolute_max_over_min": 1.0417831295275626,
+          "renormalized_worst_cell_ratio": 1.0215118218133104,
+          "renormalized_rms_frac_dev": 0.0022631542507437867
+        },
+        {
+          "E_gev": 1.5848931923981593,
+          "absolute_max_over_min": 1.0476787095992022,
+          "renormalized_worst_cell_ratio": 1.0229017528880622,
+          "renormalized_rms_frac_dev": 0.0024354988942656315
+        },
+        {
+          "E_gev": 1.9952623148830197,
+          "absolute_max_over_min": 1.0549883576147854,
+          "renormalized_worst_cell_ratio": 1.024487969393682,
+          "renormalized_rms_frac_dev": 0.0026360459244540663
+        },
+        {
+          "E_gev": 2.511886431393174,
+          "absolute_max_over_min": 1.065373127465421,
+          "renormalized_worst_cell_ratio": 1.0259281560508988,
+          "renormalized_rms_frac_dev": 0.00283024459038105
+        },
+        {
+          "E_gev": 3.1622776600113647,
+          "absolute_max_over_min": 1.0773410834815755,
+          "renormalized_worst_cell_ratio": 1.0272377202041725,
+          "renormalized_rms_frac_dev": 0.0030123612326816186
+        },
+        {
+          "E_gev": 3.981071705324124,
+          "absolute_max_over_min": 1.0874509656295606,
+          "renormalized_worst_cell_ratio": 1.0282006352399822,
+          "renormalized_rms_frac_dev": 0.0031551533051189687
+        },
+        {
+          "E_gev": 5.01187233599069,
+          "absolute_max_over_min": 1.0908783739151673,
+          "renormalized_worst_cell_ratio": 1.0289790768957798,
+          "renormalized_rms_frac_dev": 0.0032667939280124477
+        },
+        {
+          "E_gev": 6.309573444425987,
+          "absolute_max_over_min": 1.0857279099352548,
+          "renormalized_worst_cell_ratio": 1.0294609935680572,
+          "renormalized_rms_frac_dev": 0.003324006661286066
+        },
+        {
+          "E_gev": 7.943282346743232,
+          "absolute_max_over_min": 1.0776742395088363,
+          "renormalized_worst_cell_ratio": 1.0298197187158493,
+          "renormalized_rms_frac_dev": 0.0033707226301868585
+        },
+        {
+          "E_gev": 9.999999999337978,
+          "absolute_max_over_min": 1.0691207102492295,
+          "renormalized_worst_cell_ratio": 1.0301953355950912,
+          "renormalized_rms_frac_dev": 0.0034173453293568
+        },
+        {
+          "E_gev": 12.589254117066563,
+          "absolute_max_over_min": 1.0610723599427039,
+          "renormalized_worst_cell_ratio": 1.0303616294404692,
+          "renormalized_rms_frac_dev": 0.0034386578895775704
+        },
+        {
+          "E_gev": 15.848931923456972,
+          "absolute_max_over_min": 1.0552231630927853,
+          "renormalized_worst_cell_ratio": 1.0305637218569625,
+          "renormalized_rms_frac_dev": 0.003462782836769921
+        },
+        {
+          "E_gev": 19.95262314816974,
+          "absolute_max_over_min": 1.0512850536193767,
+          "renormalized_worst_cell_ratio": 1.0305693742667865,
+          "renormalized_rms_frac_dev": 0.003462583817287197
+        },
+        {
+          "E_gev": 25.11886431310027,
+          "absolute_max_over_min": 1.0501435872687914,
+          "renormalized_worst_cell_ratio": 1.030581963777617,
+          "renormalized_rms_frac_dev": 0.0034647104196062536
+        },
+        {
+          "E_gev": 31.622776599066892,
+          "absolute_max_over_min": 1.0505408518921413,
+          "renormalized_worst_cell_ratio": 1.030571904753214,
+          "renormalized_rms_frac_dev": 0.0034604398231883335
+        },
+        {
+          "E_gev": 39.810717051923454,
+          "absolute_max_over_min": 1.0521728885855899,
+          "renormalized_worst_cell_ratio": 1.030517889693896,
+          "renormalized_rms_frac_dev": 0.003453076323721893
+        },
+        {
+          "E_gev": 50.118723358247905,
+          "absolute_max_over_min": 1.0548065817081305,
+          "renormalized_worst_cell_ratio": 1.0305179961417275,
+          "renormalized_rms_frac_dev": 0.0034526398691140337
+        },
+        {
+          "E_gev": 63.09573444217132,
+          "absolute_max_over_min": 1.0577447937169708,
+          "renormalized_worst_cell_ratio": 1.0304843555174648,
+          "renormalized_rms_frac_dev": 0.0034490494708897426
+        },
+        {
+          "E_gev": 79.43282346480301,
+          "absolute_max_over_min": 1.0607994981933966,
+          "renormalized_worst_cell_ratio": 1.0304949436652957,
+          "renormalized_rms_frac_dev": 0.0034512114493827142
+        },
+        {
+          "E_gev": 99.99999999006947,
+          "absolute_max_over_min": 1.0637933957423031,
+          "renormalized_worst_cell_ratio": 1.030480365189526,
+          "renormalized_rms_frac_dev": 0.0034497204723236527
+        },
+        {
+          "E_gev": 125.89254116649818,
+          "absolute_max_over_min": 1.0664328306271849,
+          "renormalized_worst_cell_ratio": 1.030435715453367,
+          "renormalized_rms_frac_dev": 0.003444090059827167
+        },
+        {
+          "E_gev": 158.4893192293235,
+          "absolute_max_over_min": 1.0687558588723485,
+          "renormalized_worst_cell_ratio": 1.0304121748432666,
+          "renormalized_rms_frac_dev": 0.0034411852706277956
+        },
+        {
+          "E_gev": 199.52623147509283,
+          "absolute_max_over_min": 1.0709040970535795,
+          "renormalized_worst_cell_ratio": 1.0303319229241938,
+          "renormalized_rms_frac_dev": 0.0034302202426946668
+        }
+      ],
+      "isrf_pair_max_frac_diff_20gev": 0.00017971890693312305,
+      "basis_projection": [
+        {
+          "model": "SA0_R12",
+          "fractional_size_vs_reference": 6.450765797866992e-05,
+          "leverage_vs_19_components": 0.52288257333031
+        },
+        {
+          "model": "SA50_F98",
+          "fractional_size_vs_reference": 0.004023405942127059,
+          "leverage_vs_19_components": 0.5624111970241227
+        },
+        {
+          "model": "SA50_R12",
+          "fractional_size_vs_reference": 0.004031661351056646,
+          "leverage_vs_19_components": 0.5632155154118658
+        },
+        {
+          "model": "SA100_F98",
+          "fractional_size_vs_reference": 0.00792343710701919,
+          "leverage_vs_19_components": 0.5956391009826112
+        },
+        {
+          "model": "SA100_R12",
+          "fractional_size_vs_reference": 0.007974679558081595,
+          "leverage_vs_19_components": 0.5955875951595634
+        }
+      ]
+    }
+  },
+  "halo_leverage_pohl_baseline": 0.18347168694309443,
+  "halo_leverage_substituted": {
+    "SA0_F98": {
+      "ic_only": 0.06531137887437662,
+      "gas_only": 0.11779717447712215,
+      "self_consistent_ic_and_gas": 0.08478971709681242
+    },
+    "SA0_R12": {
+      "ic_only": 0.06864273850135616,
+      "gas_only": 0.11773392801563104,
+      "self_consistent_ic_and_gas": 0.08807799022182883
+    },
+    "SA50_F98": {
+      "ic_only": 0.07477943554419945,
+      "gas_only": 0.12056215238021793,
+      "self_consistent_ic_and_gas": 0.08608605739635983
+    },
+    "SA50_R12": {
+      "ic_only": 0.07742830865780151,
+      "gas_only": 0.12050379390655674,
+      "self_consistent_ic_and_gas": 0.08269833910986828
+    },
+    "SA100_F98": {
+      "ic_only": 0.07951723498141847,
+      "gas_only": 0.12152549456340375,
+      "self_consistent_ic_and_gas": 0.04830286646749962
+    },
+    "SA100_R12": {
+      "ic_only": 0.08230034947717074,
+      "gas_only": 0.12146785405779785,
+      "self_consistent_ic_and_gas": 0.053527851021629325
+    }
+  }
+}

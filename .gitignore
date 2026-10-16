@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+runs/
+results/fits/ranking_cells/
+results/fits/stage_e/
+results/paper_figures/
+results/figure_tests/
+external/haslam/*.fits
+external/fssc/*.fits
+external/galprop_paperII/*.tar
+external/galprop_paperII/*.tar.gz
+external/galprop_paperII/*/
+external/cholis2026/*.fits
+external/eROSITA_fullsky_lat_handoff/
+external/erosita_validation/

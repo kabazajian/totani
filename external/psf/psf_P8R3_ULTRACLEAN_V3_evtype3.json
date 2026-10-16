@@ -1,0 +1,11 @@
+{
+  "tool": "gtpsf (fermitools 2.5.3 conda env)",
+  "made": "2026-09-30",
+  "expcube": "runs/_ltcubes/ltcube_788ab00a4d3b.fits (this run's livetime cube: weeks 9-791, zmax 100, the data selection)",
+  "irfs": "P8R3_ULTRACLEAN_V3",
+  "evtype": 3,
+  "ra": 266.40499, "dec": -28.93617,
+  "emin_mev": 1000, "emax_mev": 150000, "nenergies": 40,
+  "thetamax_deg": 15, "ntheta": 300,
+  "purpose": "PSF folding of the 2- and 1-deg templates (totani.psf), replacing the gce-fisher CLEAN table; selected by FINE_TAG=psfuc"
+}

@@ -1,0 +1,636 @@
+{
+ "catalog_share": {
+  "paper": "Sec. II B (catalog sources predict ... of the observed counts)",
+  "definition": "point-source template at its catalog normalization over the observed counts, fitted 2-deg cells (|b| >= 10, extended sources masked), ULTRACLEAN response, per energy bin",
+  "values": {
+   "E_gev": [
+    1.5100000000000002,
+    2.5504348577733764,
+    4.307760240891062,
+    7.275935018078675,
+    12.289270392716432,
+    20.756942772308804,
+    35.05909297172418,
+    59.21584953443903,
+    100.01732899688521
+   ],
+   "fraction": [
+    0.09452023372425543,
+    0.10091488301133185,
+    0.10274354267855144,
+    0.104092745453925,
+    0.10624677280739697,
+    0.11422865198709796,
+    0.1232825090750508,
+    0.14670598825395836,
+    0.18297170258648104
+   ]
+  },
+  "summary": "9.5%-18.3% over 1.16-130 GeV; 11.4% at 20.8 GeV"
+ },
+ "erosita_east_share": {
+  "paper": "Sec. II C (this reconstruction supplies approximately ...% of the template weight)",
+  "definition": "fraction of each brightness-weighted lobe's weight (template x pixel solid angle) in the fitted region |l| <= 60, 10 <= |b| <= 60 that lies at l > 0 (the reconstructed East)",
+  "values": {
+   "north": 0.43291514783661567,
+   "south": 0.46783552454931093
+  },
+  "summary": "north 43.3%, south 46.8%"
+ },
+ "chz_cells": {
+  "paper": "Sec. IV C (the enlarged boundaries ... intersect N of the 2190 cells, containing x% of the NFW counts)",
+  "definition": "2-deg cells of the 2014 outside region touched by any pixel of the CHZ edges-E footprint; their share of the response-folded NFW counts at 20.8 GeV in that region",
+  "values": {
+   "outside_cells": 2190,
+   "touched_cells": 86,
+   "nfw_share": 0.1376677762105131
+  },
+  "summary": "86 of 2190 cells, 13.8% of the NFW counts"
+ },
+ "psf_containment": {
+  "paper": "App. A (kernels reproduce the 68% and 95% containment radii ...)",
+  "definition": "a delta at (l, b) = (10, 30) deg convolved with each bin's three-Gaussian kernel; measured R68, R95 against the gtpsf table for P8R3_ULTRACLEAN_V3 evtype 3",
+  "values": {
+   "E_gev": [
+    1.5100000000000002,
+    2.5504348577733764,
+    4.307760240891062,
+    7.275935018078675,
+    12.289270392716432,
+    20.756942772308804,
+    35.05909297172418,
+    59.21584953443903,
+    100.01732899688521
+   ],
+   "R68_deg": [
+    0.5958971198096256,
+    0.39038770352602026,
+    0.2554994711121679,
+    0.16544855323340912,
+    0.1250000000002151,
+    0.11796438393144201,
+    0.10832128262574267,
+    0.10832128262574267,
+    0.10832128262574267
+   ],
+   "R68_table_deg": [
+    0.583077177442062,
+    0.3883263984110898,
+    0.26602314436512337,
+    0.18937053257035924,
+    0.14283532116575595,
+    0.11660514035722737,
+    0.1041561080980735,
+    0.09938281542993099,
+    0.098745267336514
+   ],
+   "R95_deg": [
+    1.9839988106089894,
+    1.4782261326009256,
+    1.0952143170606874,
+    0.8281261674673386,
+    0.6609381544609686,
+    0.5498470396578392,
+    0.4997766665999118,
+    0.43589745404226626,
+    0.41032439271150356
+   ],
+   "R95_table_deg": [
+    1.9238550162200088,
+    1.423664779060934,
+    1.0607486136693018,
+    0.8004669213099285,
+    0.6311772700316514,
+    0.5343171676004828,
+    0.4813671497766356,
+    0.44151102827461197,
+    0.40987928969492854
+   ],
+   "R68_dev": [
+    0.021986698954337802,
+    0.005308176635337336,
+    -0.03955923939652195,
+    -0.12632366299155906,
+    -0.12486632171914613,
+    0.011656806638631112,
+    0.03998972891486341,
+    0.08993976631818867,
+    0.09697695441539067
+   ],
+   "R95_dev": [
+    0.0312621241631561,
+    0.038324579172339224,
+    0.03249186748607946,
+    0.03455389026213229,
+    0.04715138811609121,
+    0.029064894409247977,
+    0.038244231730018674,
+    -0.012714459827386615,
+    0.0010859368301001648
+   ],
+   "flux_ratio": [
+    1.0,
+    0.9999999999999998,
+    0.9999999999999999,
+    1.0,
+    1.0000000000000004,
+    1.0,
+    1.0,
+    0.9999999999999998,
+    1.0
+   ]
+  },
+  "summary": "R68 deviations +2.2%, +0.5%, -4.0%, -12.6%, -12.5% at 1.5-12.3 GeV; R95 deviations +3.1%, +3.8%, +3.2%, +3.5%, +4.7%; table R68 < 0.125 deg from 20.8 GeV"
+ },
+ "ps_redistribution": {
+  "paper": "App. A (point sources show the largest redistribution between cells ...)",
+  "definition": "half the L1 distance between the normalized fitted-cell maps of a template without and with the PSF folding (1- and 2-deg cells): the fraction of its counts that the response moves to other cells. 'library_pixelsrc' = sources at pixel centres (before 2026-10-01), 'library' = exact positions",
+  "values": {
+   "cells2/library_pixelsrc": {
+    "point_sources": [
+     0.2587756122746616,
+     0.19620183784892853,
+     0.14983843674065866,
+     0.1150506927970321,
+     0.09048300761534836,
+     0.07773455870918457,
+     0.07396581851578488,
+     0.0728338388065212,
+     0.07196258748885867
+    ],
+    "bubble_flat": [
+     0.011832231211643052,
+     0.007021985477990251,
+     0.0041968360322180015,
+     0.00253306603888832,
+     0.001626572645020582,
+     0.001182162009168472,
+     0.0009711703327335696,
+     0.0008369754149484797,
+     0.0007473372333906762
+    ],
+    "bubble_structured": [
+     0.02198864571189637,
+     0.01309597478452874,
+     0.007674154010372526,
+     0.004488912026658587,
+     0.0027708954627926044,
+     0.0019211073064490524,
+     0.0015150570336610355,
+     0.0012554719484224922,
+     0.0010759703759606943
+    ],
+    "isotropic": [
+     5.6184232989044686e-05,
+     3.274903345405005e-05,
+     2.0174622983606824e-05,
+     1.2859303253104946e-05,
+     8.77633802164166e-06,
+     6.721386383467219e-06,
+     5.695469842952297e-06,
+     5.098499937333587e-06,
+     4.7575055998116315e-06
+    ]
+   },
+   "cells2/library": {
+    "point_sources": [
+     0.26077121325220487,
+     0.20028538836763668,
+     0.1560256572672079,
+     0.12458701295134718,
+     0.10397089480874969,
+     0.09201490860301151,
+     0.0870532898033158,
+     0.08497669030313942,
+     0.08380942578263101
+    ],
+    "bubble_flat": [
+     0.011832231211643052,
+     0.007021985477990251,
+     0.0041968360322180015,
+     0.00253306603888832,
+     0.001626572645020582,
+     0.001182162009168472,
+     0.0009711703327335696,
+     0.0008369754149484797,
+     0.0007473372333906762
+    ],
+    "bubble_structured": [
+     0.02198864571189637,
+     0.01309597478452874,
+     0.007674154010372526,
+     0.004488912026658587,
+     0.0027708954627926044,
+     0.0019211073064490524,
+     0.0015150570336610355,
+     0.0012554719484224922,
+     0.0010759703759606943
+    ],
+    "isotropic": [
+     5.6184232989044686e-05,
+     3.274903345405005e-05,
+     2.0174622983606824e-05,
+     1.2859303253104946e-05,
+     8.77633802164166e-06,
+     6.721386383467219e-06,
+     5.695469842952297e-06,
+     5.098499937333587e-06,
+     4.7575055998116315e-06
+    ]
+   },
+   "cells2/diffuse_SLZ6R30T150C2": {
+    "galprop_gas": [
+     0.008206985095199307,
+     0.005076890128887024,
+     0.0031344399363741997,
+     0.0019377384254629232,
+     0.0012542855908188894,
+     0.0009121455198687184,
+     0.0007476144865312524,
+     0.0006417569494265335,
+     0.000570163640617697
+    ],
+    "galprop_ics": [
+     0.00022775389942605775,
+     0.00013501235411048928,
+     8.25106075093265e-05,
+     5.1725266320984346e-05,
+     3.4946909548241994e-05,
+     2.729335055566926e-05,
+     2.4259295426033527e-05,
+     2.2690027073328952e-05,
+     2.200084821592048e-05
+    ]
+   },
+   "cells1/library_pixelsrc": {
+    "point_sources": [
+     0.48855782006422505,
+     0.384950228555209,
+     0.2979360499199708,
+     0.22575509139572852,
+     0.171873228203469,
+     0.14183666021617536,
+     0.12910244550533662,
+     0.12235949641126967,
+     0.11845316815844256
+    ],
+    "bubble_flat": [
+     0.01711224683500706,
+     0.010689725398436592,
+     0.006711680265070561,
+     0.0042648699755499075,
+     0.0028566276186047317,
+     0.002137108465967999,
+     0.0017879216369234767,
+     0.0015588148237986933,
+     0.0014005079653809753
+    ],
+    "bubble_structured": [
+     0.028091194712006676,
+     0.017123635927304565,
+     0.010270915952293746,
+     0.0061530246274858645,
+     0.003877355746939111,
+     0.0027295020643171805,
+     0.0021763943581054076,
+     0.001818459437238492,
+     0.0015675328017597057
+    ],
+    "isotropic": [
+     7.67403887931258e-05,
+     5.187912322998879e-05,
+     3.694363979148131e-05,
+     2.659532221297761e-05,
+     1.9826071565831423e-05,
+     1.596202516721237e-05,
+     1.3848613371452622e-05,
+     1.2605799155404494e-05,
+     1.192816360472469e-05
+    ]
+   },
+   "cells1/library": {
+    "point_sources": [
+     0.4934622801768973,
+     0.3927764215556514,
+     0.30989187564507203,
+     0.24515578251191825,
+     0.199059515415898,
+     0.17025282592009333,
+     0.1560667541189215,
+     0.14835014767639138,
+     0.14437457436523593
+    ],
+    "bubble_flat": [
+     0.01711224683500706,
+     0.010689725398436592,
+     0.006711680265070561,
+     0.0042648699755499075,
+     0.0028566276186047317,
+     0.002137108465967999,
+     0.0017879216369234767,
+     0.0015588148237986933,
+     0.0014005079653809753
+    ],
+    "bubble_structured": [
+     0.028091194712006676,
+     0.017123635927304565,
+     0.010270915952293746,
+     0.0061530246274858645,
+     0.003877355746939111,
+     0.0027295020643171805,
+     0.0021763943581054076,
+     0.001818459437238492,
+     0.0015675328017597057
+    ],
+    "isotropic": [
+     7.67403887931258e-05,
+     5.187912322998879e-05,
+     3.694363979148131e-05,
+     2.659532221297761e-05,
+     1.9826071565831423e-05,
+     1.596202516721237e-05,
+     1.3848613371452622e-05,
+     1.2605799155404494e-05,
+     1.192816360472469e-05
+    ]
+   },
+   "cells1/diffuse_SLZ6R30T150C2": {
+    "galprop_gas": [
+     0.012161537775705467,
+     0.007950998782623196,
+     0.005199265546271545,
+     0.0034113887893678584,
+     0.002323849877134776,
+     0.0017540721804680584,
+     0.0014743506398228645,
+     0.0012887747516044747,
+     0.0011608725488016147
+    ],
+    "galprop_ics": [
+     0.0002732923753154377,
+     0.0001895682557022147,
+     0.00013897218972079638,
+     0.00010294160409125429,
+     7.578112674112696e-05,
+     6.208628140782428e-05,
+     5.712114301286487e-05,
+     5.523207907876007e-05,
+     5.5127913372247155e-05
+    ]
+   }
+  },
+  "summary": "at 100 GeV -- cells2/library_pixelsrc: point_sources 7.2%, bubble_flat 0.1%, bubble_structured 0.1%, isotropic 0.0%; cells2/library: point_sources 8.4%, bubble_flat 0.1%, bubble_structured 0.1%, isotropic 0.0%; cells2/diffuse_SLZ6R30T150C2: galprop_gas 0.1%, galprop_ics 0.0%; cells1/library_pixelsrc: point_sources 11.8%, bubble_flat 0.1%, bubble_structured 0.2%, isotropic 0.0%; cells1/library: point_sources 14.4%, bubble_flat 0.1%, bubble_structured 0.2%, isotropic 0.0%; cells1/diffuse_SLZ6R30T150C2: galprop_gas 0.1%, galprop_ics 0.0%"
+ },
+ "pion_spectrum": {
+  "paper": "App. B (the pion-decay E^2 dN/dE spectrum peaks near ... and has a slope of ...)",
+  "definition": "2012 grid SL_Z6_R30_T150_C2 pi0 HEALPix map, pixel at the Galactic Centre: energy of the E^2 dN/dE maximum, from a parabola in ln E through the tabulated maximum and its neighbours, and the least-squares dN/dE slope over the tabulated energies 1-10 GeV",
+  "values": {
+   "E_peak_mev": 595.2728971121142,
+   "E_tabulated_max_mev": 528.965751061358,
+   "slope_dnde_1_10gev": -2.6412874430244404,
+   "n_energies": 9
+  },
+  "summary": "peak near 595 MeV (tabulated maximum 529 MeV); dN/dE slope -2.64 over 1-10 GeV"
+ },
+ "galp21_gas_ratio": {
+  "paper": "App. B (Galp21 gas templates agree with the 2012 baseline to factors of ...)",
+  "definition": "Galp21 gas (pi0 + bremsstrahlung, all rings) over the 2012 SL_Z6_R30_T150_C2 gas, summed over |l| <= 60, 10 <= |b| <= 60, in the 1.16-1.96 GeV bin",
+  "values": {
+   "SA0_F98": {
+    "total_ratio": 0.980881656117285,
+    "pixel_ratio_median": 1.0308986768285822
+   },
+   "SA0_R12": {
+    "total_ratio": 0.9758678249921543,
+    "pixel_ratio_median": 1.025630459698868
+   },
+   "SA50_F98": {
+    "total_ratio": 1.0012394740093575,
+    "pixel_ratio_median": 1.0478867388031654
+   },
+   "SA50_R12": {
+    "total_ratio": 0.996090892380511,
+    "pixel_ratio_median": 1.0424416398624596
+   },
+   "SA100_F98": {
+    "total_ratio": 1.0152394951519956,
+    "pixel_ratio_median": 1.0593932152336996
+   },
+   "SA100_R12": {
+    "total_ratio": 1.0098118055379661,
+    "pixel_ratio_median": 1.0536168860881314
+   }
+  },
+  "summary": "total ratios 0.976-1.015 over the six models"
+ },
+ "unit_injection": {
+  "paper": "App. D (the unit injection gives ... counts at 1.5 GeV and ... at 100 GeV)",
+  "definition": "expected counts of the unit injection (constant coefficient a_ref of injection_refined_2026-09-29.json) times the response-folded NFW J summed over the fitted region, per energy bin",
+  "values": {
+   "E_gev": [
+    1.5100000000000002,
+    2.5504348577733764,
+    4.307760240891062,
+    7.275935018078675,
+    12.289270392716432,
+    20.756942772308804,
+    35.05909297172418,
+    59.21584953443903,
+    100.01732899688521
+   ],
+   "a_ref": 1.9777417227078248e-35,
+   "counts": [
+    469.43781974977327,
+    839.6679385204728,
+    1391.2930247854345,
+    2278.9390631567517,
+    3785.3384088157172,
+    6400.553054809572,
+    10984.431963479723,
+    18500.974995051703,
+    30447.931930450613
+   ]
+  },
+  "summary": "469 counts at 1.5 GeV and 30,448 at 100 GeV per unit coefficient"
+ },
+ "spectral_slopes": {
+  "paper": "App. D (coarse null spectra ... slope ..., compared with ... for the flat-template data)",
+  "definition": "least-squares slope of ln(E^2 dN/dE) against ln E over the bins with positive E^2 dN/dE, 10-deg cells (results/fits/halo_spectra_compare_2026-09-24.json)",
+  "values": {
+   "data_totani_config": {
+    "slope": 0.11384967898696043,
+    "bins_used": 7
+   },
+   "data_257_residual": {
+    "slope": 0.10652864778360346,
+    "bins_used": 8
+   },
+   "data_257_flat": {
+    "slope": -0.03076919559162007,
+    "bins_used": 8
+   },
+   "null_sky_residual_construction": {
+    "slope": -0.10652686266335434,
+    "bins_used": 9
+   },
+   "null_sky_flat_mask": {
+    "slope": -0.09464096862634616,
+    "bins_used": 9
+   },
+   "null_sky_own_set": {
+    "slope": -0.7284129449605036,
+    "bins_used": 3
+   },
+   "injected_recovered_structured": {
+    "slope": -0.09482156831243198,
+    "bins_used": 6
+   },
+   "injected_truth": {
+    "slope": 0.11384967898696043,
+    "bins_used": 7
+   }
+  },
+  "summary": "data_totani_config +0.11 (7 bins); data_257_residual +0.11 (8 bins); data_257_flat -0.03 (8 bins); null_sky_residual_construction -0.11 (9 bins); null_sky_flat_mask -0.09 (9 bins); null_sky_own_set -0.73 (3 bins); injected_recovered_structured -0.09 (6 bins); injected_truth +0.11 (7 bins)"
+ },
+ "erosita_ew": {
+  "paper": "App. E (East/West ratios ...; another published display gives ...)",
+  "definition": "mean East (l > 0) over mean West surface brightness in the fitted region, per lobe, HEALPix 256 (as tests/test_erosita_brightness.py)",
+  "values": {
+   "nominal": {
+    "north": 0.9109156008079634,
+    "south": 0.8189592643502579
+   },
+   "ED1": {
+    "north": 0.9532904873505075,
+    "south": 0.7969578225594001
+   }
+  },
+  "summary": "nominal 0.911 / 0.819; ED1 0.953 / 0.797"
+ },
+ "hestia_shapes": {
+  "paper": "App. E (the HESTIA halos have c/a = ... within 30 kpc and minor axes within ... of the disk normal)",
+  "definition": "AHF DM profiles of the six HESTIA analogues (Muru et al. 2025), converged radial bins between R0 sin 10 deg = 1.42 kpc (the closest approach to the Galactic Center of any sightline at |b| >= 10 deg) and 30 kpc: minor-to-major axis ratio c/a, and the largest angle between the minor axis Ec and the stellar disk normal z_hat (muru_frames.json)",
+  "values": {
+   "G1.1": {
+    "profile": "G12",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.797341211225997,
+     24.884047267355978
+    ],
+    "c_over_a_min": 0.682588,
+    "c_over_a_max": 0.795382,
+    "minor_axis_vs_disk_normal_deg_max": 1.8250355331969181
+   },
+   "G1.2": {
+    "profile": "G11",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.7877400295420973,
+     24.430280649926143
+    ],
+    "c_over_a_min": 0.638919,
+    "c_over_a_max": 0.740882,
+    "minor_axis_vs_disk_normal_deg_max": 4.292395965281369
+   },
+   "G2.1": {
+    "profile": "G22",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.7584933530280646,
+     28.50709010339734
+    ],
+    "c_over_a_min": 0.65302,
+    "c_over_a_max": 0.727173,
+    "minor_axis_vs_disk_normal_deg_max": 0.8887540387290253
+   },
+   "G2.2": {
+    "profile": "G21",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.5741506646971934,
+     26.33751846381093
+    ],
+    "c_over_a_min": 0.747791,
+    "c_over_a_max": 0.78153,
+    "minor_axis_vs_disk_normal_deg_max": 2.8034278783059636
+   },
+   "G3.1": {
+    "profile": "G32",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.745937961595273,
+     24.572673559822746
+    ],
+    "c_over_a_min": 0.692172,
+    "c_over_a_max": 0.752575,
+    "minor_axis_vs_disk_normal_deg_max": 1.6339732204218627
+   },
+   "G3.2": {
+    "profile": "G31",
+    "n_bins": 12,
+    "r_kpc_range": [
+     1.5050221565731166,
+     26.421861152141798
+    ],
+    "c_over_a_min": 0.669995,
+    "c_over_a_max": 0.748447,
+    "minor_axis_vs_disk_normal_deg_max": 3.5868624863055545
+   }
+  },
+  "summary": "c/a 0.64-0.80; minor axis within 4.3 deg of the disk normal"
+ },
+ "galp21_swap": {
+  "paper": "App. B (2012 gas with Galp21 anisotropic inverse Compton gives a deficit of ...)",
+  "definition": "background-only -2lnL (10-deg cells, |b| >= 10, nine bins) of diffuse + isotropic + point sources, single-gas decomposition, relative to the best 2012 model, with the gas and inverse Compton templates taken from the models named",
+  "values": {
+   "best_2012": "SL_Z10_R30_T150_C5",
+   "best_2012_neg2lnl": -60165649.204171546,
+   "models": {
+    "SA0_F98": {
+     "galp21_aniso": 11506.380779825151,
+     "gas2012_icsG21aniso": 10561.792091839015,
+     "gasG21_ics2012": 1357.8476747870445,
+     "gas2012_icsG21iso": 3672.957608729601,
+     "gasG21_icsG21iso": 4906.073522977531
+    },
+    "SA0_R12": {
+     "galp21_aniso": 11742.706099234521,
+     "gas2012_icsG21aniso": 10706.23149804771,
+     "gasG21_ics2012": 1355.6193227916956,
+     "gas2012_icsG21iso": 4052.0738929137588,
+     "gasG21_icsG21iso": 5418.142082132399
+    },
+    "SA50_F98": {
+     "galp21_aniso": 12394.422761075199,
+     "gas2012_icsG21aniso": 10936.924596861005,
+     "gasG21_ics2012": 1624.691941909492,
+     "gas2012_icsG21iso": 3859.8422136306763,
+     "gasG21_icsG21iso": 5752.719366721809
+    },
+    "SA50_R12": {
+     "galp21_aniso": 12763.918982312083,
+     "gas2012_icsG21aniso": 11251.283152192831,
+     "gasG21_ics2012": 1624.9254069551826,
+     "gas2012_icsG21iso": 4517.459594152868,
+     "gasG21_icsG21iso": 6531.365655824542
+    },
+    "SA100_F98": {
+     "galp21_aniso": 11550.35248106718,
+     "gas2012_icsG21aniso": 9785.650364391506,
+     "gasG21_ics2012": 1778.0415337979794,
+     "gas2012_icsG21iso": 2557.4097046107054,
+     "gasG21_icsG21iso": 4777.62539203465
+    },
+    "SA100_R12": {
+     "galp21_aniso": 11957.395207770169,
+     "gas2012_icsG21aniso": 10158.632786780596,
+     "gasG21_ics2012": 1780.7534540817142,
+     "gas2012_icsG21iso": 3380.845324151218,
+     "gasG21_icsG21iso": 5734.289305135608
+    }
+   }
+  },
+  "summary": "best 2012 = SL_Z10_R30_T150_C5; Galp21 as delivered 11,506-12,764; 2012 gas + G21 aniso IC 9,786-11,251; G21 gas + 2012 IC 1,356-1,781; 2012 gas + G21 iso IC 2,557-4,517; G21 gas + G21 iso IC 4,778-6,531"
+ }
+}

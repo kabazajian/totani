@@ -1,0 +1,54 @@
+{
+ "structured": {
+  "halo": 7943.554341634115,
+  "bubbles": 16066.18280462592,
+  "loopI": 14389.123293325998,
+  "erosita": 5598.8285995816705,
+  "fitted_names": [
+   "bubble_structured",
+   "erosita_unif_N",
+   "erosita_unif_S",
+   "galprop_gas",
+   "galprop_ics",
+   "isotropic",
+   "loopI_haslam_raw",
+   "point_sources",
+   "sun_moon_ic"
+  ]
+ },
+ "flat": {
+  "halo": 14298.601236979168,
+  "bubbles": 13293.302792508402,
+  "loopI": 12919.183142847496,
+  "erosita": 5301.340662015031,
+  "fitted_names": [
+   "bubble_flat",
+   "erosita_unif_N",
+   "erosita_unif_S",
+   "galprop_gas",
+   "galprop_ics",
+   "isotropic",
+   "loopI_haslam_raw",
+   "point_sources",
+   "sun_moon_ic"
+  ]
+ },
+ "construction": {
+  "halo": 20933.522420247395,
+  "bubbles": 13631.265981932527,
+  "loopI": 5536.828768250717,
+  "erosita": 2585.097030367835,
+  "fitted_names": [
+   "bubble_totani_neg",
+   "bubble_totani_pos",
+   "erosita_unif_N",
+   "erosita_unif_S",
+   "galprop_gas",
+   "galprop_ics",
+   "isotropic",
+   "loopI_haslam_raw",
+   "point_sources",
+   "sun_moon_ic"
+  ]
+ }
+}

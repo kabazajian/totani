@@ -1,0 +1,406 @@
+{
+  "date": "2026-09-06",
+  "run": "fff2de5bc7e0",
+  "E_centers_gev": [
+    1.51,
+    2.5504348577733764,
+    4.307760240891061,
+    7.275935018078674,
+    12.289270392716432,
+    20.756942772308804,
+    35.05909297172418,
+    59.21584953443903,
+    100.0173289968852
+  ],
+  "band_max_deg": 30.0,
+  "n_cells": {
+    "full": 120,
+    "band": 48,
+    "outer": 72
+  },
+  "component_order": [
+    "H2_ring1",
+    "H2_ring2",
+    "H2_ring3",
+    "H2_ring4",
+    "HI_ring1",
+    "HI_ring2",
+    "HI_ring3",
+    "HI_ring4",
+    "bubble",
+    "dust_neg",
+    "dust_pos",
+    "ics_ring123",
+    "ics_ring4",
+    "ics_ring5",
+    "ics_ring6",
+    "isotropic",
+    "loopI_shell1",
+    "loopI_shell2",
+    "point_sources"
+  ],
+  "per_bin": [
+    {
+      "bin": 0,
+      "E_gev": 1.51,
+      "unweighted": {
+        "leverage_full": 0.26489774402332406,
+        "leverage_band": 0.18312866952647608,
+        "leverage_outer": 0.13051367118926543,
+        "leverage_if_fitted_separately": 0.17874568216227457,
+        "lever_arm_share": 0.5446822302421614
+      },
+      "poisson": {
+        "leverage_full": 0.29862212994892223,
+        "leverage_band": 0.19895671704207735,
+        "leverage_outer": 0.13196025530017716,
+        "leverage_if_fitted_separately": 0.1857909907606645,
+        "lever_arm_share": 0.6129159077170391
+      },
+      "halo_template_fraction_in_band": 0.6897855346378307,
+      "counts_fraction_in_band": 0.643164105217961
+    },
+    {
+      "bin": 1,
+      "E_gev": 2.5504348577733764,
+      "unweighted": {
+        "leverage_full": 0.2649066474330977,
+        "leverage_band": 0.18311640250305586,
+        "leverage_outer": 0.1311894641770952,
+        "leverage_if_fitted_separately": 0.17878178852264137,
+        "lever_arm_share": 0.5445288826062291
+      },
+      "poisson": {
+        "leverage_full": 0.29993544926365673,
+        "leverage_band": 0.200827954259157,
+        "leverage_outer": 0.1326850465825478,
+        "leverage_if_fitted_separately": 0.1874093861409434,
+        "lever_arm_share": 0.6095844738582428
+      },
+      "halo_template_fraction_in_band": 0.6897671286244135,
+      "counts_fraction_in_band": 0.6414041123149267
+    },
+    {
+      "bin": 2,
+      "E_gev": 4.307760240891061,
+      "unweighted": {
+        "leverage_full": 0.2649984595640685,
+        "leverage_band": 0.18279566102179215,
+        "leverage_outer": 0.13191968291254397,
+        "leverage_if_fitted_separately": 0.17854122832855066,
+        "lever_arm_share": 0.5460684825094608
+      },
+      "poisson": {
+        "leverage_full": 0.3002518027276185,
+        "leverage_band": 0.2019669835627381,
+        "leverage_outer": 0.1342197943957224,
+        "leverage_if_fitted_separately": 0.18878744491166274,
+        "lever_arm_share": 0.6046561655984296
+      },
+      "halo_template_fraction_in_band": 0.689937397317222,
+      "counts_fraction_in_band": 0.6347495641867487
+    },
+    {
+      "bin": 3,
+      "E_gev": 7.275935018078674,
+      "unweighted": {
+        "leverage_full": 0.26514244871354814,
+        "leverage_band": 0.18236229248865957,
+        "leverage_outer": 0.13261052585735011,
+        "leverage_if_fitted_separately": 0.17819463551167528,
+        "lever_arm_share": 0.5483201407486512
+      },
+      "poisson": {
+        "leverage_full": 0.30106533623460296,
+        "leverage_band": 0.20404322846439132,
+        "leverage_outer": 0.13537310760196758,
+        "leverage_if_fitted_separately": 0.1910809971147069,
+        "lever_arm_share": 0.597177715850437
+      },
+      "halo_template_fraction_in_band": 0.6901334523566659,
+      "counts_fraction_in_band": 0.6228800007637487
+    },
+    {
+      "bin": 4,
+      "E_gev": 12.289270392716432,
+      "unweighted": {
+        "leverage_full": 0.26587105634030794,
+        "leverage_band": 0.18218038360322475,
+        "leverage_outer": 0.1330040449969444,
+        "leverage_if_fitted_separately": 0.17805711724607912,
+        "lever_arm_share": 0.5514854322010396
+      },
+      "poisson": {
+        "leverage_full": 0.3032553140794786,
+        "leverage_band": 0.206117967841974,
+        "leverage_outer": 0.1360152317197149,
+        "leverage_if_fitted_separately": 0.19307427402412616,
+        "lever_arm_share": 0.5946483163976245
+      },
+      "halo_template_fraction_in_band": 0.6902364471214845,
+      "counts_fraction_in_band": 0.6123565477126238
+    },
+    {
+      "bin": 5,
+      "E_gev": 20.756942772308804,
+      "unweighted": {
+        "leverage_full": 0.2658659726375797,
+        "leverage_band": 0.18347168694309443,
+        "leverage_outer": 0.1331100161213065,
+        "leverage_if_fitted_separately": 0.17925583303230486,
+        "lever_arm_share": 0.5454087423100984
+      },
+      "poisson": {
+        "leverage_full": 0.3040924796810914,
+        "leverage_band": 0.20799035569954996,
+        "leverage_outer": 0.13701767714334248,
+        "leverage_if_fitted_separately": 0.19484410641653058,
+        "lever_arm_share": 0.5894527117985591
+      },
+      "halo_template_fraction_in_band": 0.6901219016036685,
+      "counts_fraction_in_band": 0.6030790600763978
+    },
+    {
+      "bin": 6,
+      "E_gev": 35.05909297172418,
+      "unweighted": {
+        "leverage_full": 0.2657358671881251,
+        "leverage_band": 0.18363586022945877,
+        "leverage_outer": 0.1332171114668339,
+        "leverage_if_fitted_separately": 0.17940969727103812,
+        "lever_arm_share": 0.5441819971829849
+      },
+      "poisson": {
+        "leverage_full": 0.3042755554455507,
+        "leverage_band": 0.20948274912812723,
+        "leverage_outer": 0.13817578879515258,
+        "leverage_if_fitted_separately": 0.19596853893521812,
+        "lever_arm_share": 0.5852001586260442
+      },
+      "halo_template_fraction_in_band": 0.6898983503297517,
+      "counts_fraction_in_band": 0.6016002341806118
+    },
+    {
+      "bin": 7,
+      "E_gev": 59.21584953443903,
+      "unweighted": {
+        "leverage_full": 0.26568716250169044,
+        "leverage_band": 0.1837799092931601,
+        "leverage_outer": 0.13328487035766726,
+        "leverage_if_fitted_separately": 0.17954203429282553,
+        "lever_arm_share": 0.5433419245901865
+      },
+      "poisson": {
+        "leverage_full": 0.3084065915159241,
+        "leverage_band": 0.21232560906375064,
+        "leverage_outer": 0.14235613283146908,
+        "leverage_if_fitted_separately": 0.19933402332484074,
+        "lever_arm_share": 0.5822508624049679
+      },
+      "halo_template_fraction_in_band": 0.6897079479863221,
+      "counts_fraction_in_band": 0.5871569950517319
+    },
+    {
+      "bin": 8,
+      "E_gev": 100.0173289968852,
+      "unweighted": {
+        "leverage_full": 0.26573614690491887,
+        "leverage_band": 0.183911587556626,
+        "leverage_outer": 0.13331113785658855,
+        "leverage_if_fitted_separately": 0.17965937708204757,
+        "lever_arm_share": 0.542913376518489
+      },
+      "poisson": {
+        "leverage_full": 0.30009099319030974,
+        "leverage_band": 0.20985976352772723,
+        "leverage_outer": 0.14117873664689964,
+        "leverage_if_fitted_separately": 0.19598522051355055,
+        "lever_arm_share": 0.5734787021325116
+      },
+      "halo_template_fraction_in_band": 0.689538819589846,
+      "counts_fraction_in_band": 0.5956104252400549
+    }
+  ],
+  "restricted_fits": {
+    "full": {
+      "per_bin": [
+        {
+          "bin": 0,
+          "counts": 150225.7578125,
+          "lo": 145598.58896765322,
+          "hi": 153064.72664980902
+        },
+        {
+          "bin": 1,
+          "counts": 91952.14973958331,
+          "lo": 90595.9426793104,
+          "hi": 96680.79104533588
+        },
+        {
+          "bin": 2,
+          "counts": 50569.96875,
+          "lo": 48716.20556021965,
+          "hi": 51921.060673880915
+        },
+        {
+          "bin": 3,
+          "counts": 26186.625000000004,
+          "lo": 25202.21966747559,
+          "hi": 27356.74269674217
+        },
+        {
+          "bin": 4,
+          "counts": 14660.117187499998,
+          "lo": 12946.20981723871,
+          "hi": 15737.650754798826
+        },
+        {
+          "bin": 5,
+          "counts": 7705.358072916668,
+          "lo": 7305.978523047326,
+          "hi": 8290.399477050598
+        },
+        {
+          "bin": 6,
+          "counts": 3843.1874999999995,
+          "lo": 3076.8597923421257,
+          "hi": 4244.345756993239
+        },
+        {
+          "bin": 7,
+          "counts": 1493.578125,
+          "lo": 1251.7017334764919,
+          "hi": 1687.002438237436
+        },
+        {
+          "bin": 8,
+          "counts": 555.29296875,
+          "lo": 416.2766640103968,
+          "hi": 696.1318713988783
+        }
+      ],
+      "injection_slope_min": 0.9984345096498052,
+      "injection_slope_max": 1.0119571748180265
+    },
+    "band": {
+      "per_bin": [
+        {
+          "bin": 0,
+          "counts": 65452.13281249999,
+          "lo": 61367.18982892672,
+          "hi": 69529.91291768238
+        },
+        {
+          "bin": 1,
+          "counts": 43627.92187499999,
+          "lo": 40908.66245581915,
+          "hi": 46860.31771162206
+        },
+        {
+          "bin": 2,
+          "counts": 22545.912760416668,
+          "lo": 20683.471871778776,
+          "hi": 24626.39193202755
+        },
+        {
+          "bin": 3,
+          "counts": 11893.528645833328,
+          "lo": 10791.109083471349,
+          "hi": 13488.652516046222
+        },
+        {
+          "bin": 4,
+          "counts": 6390.5625,
+          "lo": 4583.946277626763,
+          "hi": 8030.002352394049
+        },
+        {
+          "bin": 5,
+          "counts": 3731.119791666667,
+          "lo": 3141.4963463996773,
+          "hi": 4342.603611199766
+        },
+        {
+          "bin": 6,
+          "counts": 2135.446614583333,
+          "lo": 1718.8954442860845,
+          "hi": 2594.416115152465
+        },
+        {
+          "bin": 7,
+          "counts": 659.4231770833336,
+          "lo": 421.9727368350092,
+          "hi": 891.204384499896
+        },
+        {
+          "bin": 8,
+          "counts": 11.307291666666552,
+          "lo": -285.43736357319943,
+          "hi": 264.28471283223445
+        }
+      ],
+      "injection_slope_min": 0.9985121952840381,
+      "injection_slope_max": 1.0145486610576302
+    },
+    "outer": {
+      "per_bin": [
+        {
+          "bin": 0,
+          "counts": 27667.5833333333,
+          "lo": 11358.963071765476,
+          "hi": 43671.68434938808
+        },
+        {
+          "bin": 1,
+          "counts": 46524.48307291667,
+          "lo": 34670.481924683634,
+          "hi": 57679.242151922415
+        },
+        {
+          "bin": 2,
+          "counts": 15832.031249999996,
+          "lo": 11023.869714976345,
+          "hi": 20396.472035794388
+        },
+        {
+          "bin": 3,
+          "counts": 13064.46354166667,
+          "lo": 11036.004932548898,
+          "hi": 15124.160135745307
+        },
+        {
+          "bin": 4,
+          "counts": 3226.7304687500005,
+          "lo": 1293.0491168897597,
+          "hi": 5113.408265700533
+        },
+        {
+          "bin": 5,
+          "counts": 1830.5859375,
+          "lo": 266.7942250427293,
+          "hi": 3469.3551847327017
+        },
+        {
+          "bin": 6,
+          "counts": 680.5000000000005,
+          "lo": -48.260770101401675,
+          "hi": 1302.5759777567769
+        },
+        {
+          "bin": 7,
+          "counts": 33.4596354166669,
+          "lo": -390.3752164268261,
+          "hi": 457.7477955905927
+        },
+        {
+          "bin": 8,
+          "counts": 211.11979166666663,
+          "lo": 56.81803134836266,
+          "hi": 333.785364268499
+        }
+      ],
+      "injection_slope_min": 0.970451786497313,
+      "injection_slope_max": 1.0002252315709201
+    }
+  }
+}

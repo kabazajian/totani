@@ -1,0 +1,19 @@
+[project]
+name = "totani"
+version = "0.1.0"
+description = "Foreground dependence of the 20 GeV Galactic halo gamma-ray excess (Abazajian, Li & Macias 2026)"
+license = {text = "MIT"}
+authors = [{name = "Kevork N. Abazajian"}, {name = "Youyou Li"}, {name = "Oscar Macias"}]
+requires-python = ">=3.11"
+dependencies = ["numpy", "astropy", "scipy"]
+
+[project.optional-dependencies]
+paper-figures = ["matplotlib>=3.6"]
+test = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

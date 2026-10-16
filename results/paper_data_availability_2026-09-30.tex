@@ -1,0 +1,42 @@
+% Draft data-availability and acknowledgments blocks for the paper (2026-09-30).
+% Place \section*{Data availability} after the Conclusions and before \begin{acknowledgments}
+% (APS style), or wherever the journal template asks.
+
+\section*{Data availability}
+
+The \fermi-LAT photon data, spacecraft files, instrument response functions
+and the 4FGL-DR4 source catalog are public at the Fermi Science Support
+Center (\url{https://fermi.gsfc.nasa.gov/ssc/}); the selection used here is
+stated in Sec.~\ref{sec:data}. The 128 GALPROP models of the 2012 grid are
+the \fermi-LAT collaboration's public release accompanying
+Ref.~\cite{Ackermann:2012pya}. The six Galp21 models were computed for this
+work with GALPROP v57 by Y.L.; their configuration files and the
+$|\ell|,|b|\le60^\circ$ output cubes are available from the authors on
+request and will be deposited with the analysis code. The flat \fermi-bubble
+mask is that of Ref.~\cite{Fermi-LAT:2014sfa} and the structured map is the
+residual template of Ref.~\cite{Fermi-LAT:2017opo}, both as regridded
+templates in the code release; Totani's residual construction is rebuilt by
+the code from the counts. The destriped Haslam 408\,MHz map
+\cite{Remazeilles:2014mba} is public at LAMBDA. The eROSITA bubble
+templates start from the public eROSITA half-sky image
+\cite{Predehl:2020kyq}; the reconstruction of the eastern half and the
+uniform and brightness lobe templates built from it are ours and are
+released with the code, with the validation of Appendix~\ref{app:erosita}.
+The HESTIA particle data and AHF halo profiles used in
+Sec.~\ref{sec:twodeg} belong to the authors of Ref.~\cite{Muru:2025vpz} and
+are available from them on reasonable request; the derived $J$-maps for
+the 216 views, the annihilation spectra from PPPC4DMID
+\cite{Cirelli:2010xx}, the cell libraries at $10^\circ$, $2^\circ$ and
+$1^\circ$, the simulated-sky outputs and every table in this paper are
+produced by the analysis code, which will be made public at
+\url{https://github.com/kabazajian/totani} with an archived release on
+Zenodo upon publication.
+
+\begin{acknowledgments}
+We thank M.~M.~Muru and collaborators for sharing the HESTIA particle data
+and AHF halo profiles of Ref.~\cite{Muru:2025vpz}.
+KNA is partially supported by the U.S. National Science Foundation (NSF) Theoretical Physics Program Grant No.\ PHY-2609954.
+OM is supported by the U.S. National Science Foundation under Grant No.\ 2418730.
+The authors used Claude Code (Anthropic), running the Claude Opus~5, Fable~5, and Fable~5.1 models, to implement and execute the numerical analysis and to draft portions of the text.
+The authors specified the analysis design and the numerical validation tests, and reviewed and edited all text.
+\end{acknowledgments}

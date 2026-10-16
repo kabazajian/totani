@@ -1,0 +1,19 @@
+{
+  "data_root": ".",
+  "bundle_dir": "results/paper_figures/bundle",
+  "output_dir": "results/paper_figures/figures",
+  "test_bundle_dir": "results/figure_tests/bundle",
+  "test_output_dir": "results/figure_tests/renders",
+  "cell_deg": 2,
+  "fine_tag": "psfuc",
+  "row": ["SL_Z6_R30_T150_C2", "gas1_ics1"],
+  "recovery_workers": 1,
+  "allow_nfw_constructor": false,
+  "profiles": "results/paper_figures/recovered_profiles.json",
+  "result_paths": {
+    "quadrant_calibration": "results/fits/quadrant_calibration_cells2_psfuc_2026-09-29.json",
+    "quadrant_calibration_1deg": "results/fits/quadrant_calibration_cells1_psfuc_2026-09-29.json",
+    "outside_common": "results/fits/inout_bubbles_cells1_psfuc_common_2026-10-01.json"
+  },
+  "width_inches": 7.0568700706
+}
