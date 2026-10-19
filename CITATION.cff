@@ -31,7 +31,9 @@ preferred-citation:
       given-names: Youyou
     - family-names: Macias
       given-names: Oscar
-  # Add the arXiv identifier (and the journal DOI when assigned):
-  # identifiers:
-  #   - type: other
-  #     value: "arXiv:26MM.NNNNN"
+  url: "https://arxiv.org/abs/2610.23713"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.23713"
+      description: "arXiv identifier (astro-ph.HE); report number UCI-TR-2026-17"
+  # add the journal DOI here when assigned

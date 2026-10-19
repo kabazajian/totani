@@ -4,7 +4,7 @@ Analysis code for
 
 > K. N. Abazajian, Y. Li, and O. Macias, *Foreground dependence of the 20 GeV
 > Galactic halo gamma-ray excess and its proposed connection to the
-> LUX-ZEPLIN event* (2026), arXiv:[to be added].
+> LUX-ZEPLIN event* (2026), [arXiv:2610.23713](https://arxiv.org/abs/2610.23713).
 
 Totani (arXiv:2507.07209) reported a halo-like excess peaking near 20 GeV over
 |ℓ| ≤ 60°, 10° ≤ |b| ≤ 60° and fitted it with dark-matter annihilation. This
